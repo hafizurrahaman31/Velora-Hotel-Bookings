@@ -2,93 +2,93 @@
 This Power BI dashboard analyzes hotel reservation data to help executives monitor booking trends, customer behavior, and revenue performance. The dataset includes 5,000+ bookings spanning September to November 2024, with details such as booking dates, stay dates, loyalty levels, booking channels, and pricing.
 
 
-📊 Key Metrics
+📊 **Key Metrics**
 Five core KPIs were calculated using DAX:
 
-Booking Count – Total number of reservations
+•  Booking Count – Total number of reservations
 
-Cancellation % – Ratio of canceled bookings to total bookings
+•  Cancellation % – Ratio of canceled bookings to total bookings
 
-Total Revenue – Sum of room rate × number of nights
+•  Total Revenue – Sum of room rate × number of nights
 
-Room Nights – Total nights booked across all reservations
+•  Room Nights – Total nights booked across all reservations
 
-Average Room Rate – Revenue divided by room nights
+•  Average Room Rate – Revenue divided by room nights
 
-🧠 Data Preparation
+🧠 **Data Preparation**
 Performed in Power Query:
 
-Calculated derived columns:
+1 Calculated derived columns:
 
-Revenue = Room Rate × Nights
+•  Revenue = Room Rate × Nights
 
-Lead Time = Stay Date - Booking Date
+•  Lead Time = Stay Date - Booking Date
 
-Day of Week and Day Name from Stay Date
+•  Day of Week and Day Name from Stay Date
 
-Bucketed lead time into categories:
+2 Bucketed lead time into categories:
 
-Before 1 week
+•  Before 1 week
 
-1–2 weeks
+•  1–2 weeks
 
-2–4 weeks
+•  2–4 weeks
 
-More than 4 weeks
+•  More than 4 weeks
 
-Sorted weekday names using a numeric column to ensure correct visual order
+•  Sorted weekday names using a numeric column to ensure correct visual order
 
-📈 Visualizations
+📈 **Visualizations**
 The dashboard includes:
 
-Booking Trend Over Time
+1 Booking Trend Over Time
 
-Line chart showing daily booking volume
+•  Line chart showing daily booking volume
 
-Date slicer to filter meaningful time windows
+•  Date slicer to filter meaningful time windows
 
-Weekday vs Weekend Analysis
+2 Weekday vs Weekend Analysis
 
-Column chart showing bookings by day of week
+•  Column chart showing bookings by day of week
 
-Custom sorting and optional conditional formatting
+•  Custom sorting and optional conditional formatting
 
-Loyalty Program Breakdown
+3 Loyalty Program Breakdown
 
-Bar chart showing bookings by loyalty level
+•  Bar chart showing bookings by loyalty level
 
-Styled with custom colors and background image
+•  Styled with custom colors and background image
 
-Booking Lead Time Buckets
+4 Booking Lead Time Buckets
 
-Column chart showing how far in advance customers book
+•  Column chart showing how far in advance customers book
 
-Reveals impulsive vs planned booking behavior
+•  Reveals impulsive vs planned booking behavior
 
-Booking Channel vs Loyalty Matrix
+5 Booking Channel vs Loyalty Matrix
 
-Matrix visual showing bookings by channel and loyalty level
+•  Matrix visual showing bookings by channel and loyalty level
 
-Optimized layout with readable fonts and no scrollbars
+•  Optimized layout with readable fonts and no scrollbars
 
-🎨 Design Enhancements
-Custom theme with brand colors and fonts
+🎨 **Design Enhancements**
+•  Custom theme with brand colors and fonts
 
-Canvas background for professional layout
+•  Canvas background for professional layout
 
-Rounded corners and consistent padding for visual polish
+•  Rounded corners and consistent padding for visual polish
 
-Format Painter used for consistent styling across visuals
+•  Format Painter used for consistent styling across visuals
 
-🧰 Tools & Techniques
-Power BI Desktop (latest version)
+🧰 **Tools & Techniques**
+•  Power BI Desktop (latest version)
 
-Power Query for data transformation
+•  Power Query for data transformation
 
-DAX for KPI calculations
+•  DAX for KPI calculations
 
-Matrix, line, column, and bar charts
+•  Matrix, line, column, and bar charts
 
-Slicer for dynamic filtering
+•  Slicer for dynamic filtering
 
-PowerPoint used to create custom background images
+•  PowerPoint used to create custom background images
